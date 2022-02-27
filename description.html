@@ -1,0 +1,725 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, maximum-scale=1.0" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <title>آموزش ساخت اپلیکشن زبان انگلیسی به سبک متریال در اندروید استودیو</title>
+    <link rel="stylesheet" href="css/bootstrap-rtl.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/swiper.css" />
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/fontiran.css" />
+    <link rel="stylesheet" href="css/sprite.css" />
+    <link rel="stylesheet" href="css/animate.min.css" />
+    <link rel="stylesheet" href="css/skin.css" />
+    <link rel="stylesheet" href="css/jquery.raty.css" />
+    <link rel="stylesheet" href="css/select2.css" /> </head>
+
+  <body>
+    <div class="navicon actived"> <span class="span1"></span> <span class="span2"></span> <span class="span3"></span> </div>
+    <div class="sidebg"></div>
+    <header class="header">
+      <div class="sub-menu">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <ul class="reg-menu">
+                <li><a data-toggle="modal" data-target="#admission_login">ورود<i class="sprite sprite_ur"></i></a></li>
+                <li><a data-toggle="modal" data-target="#admission_requestss">ثبت نام<i class="sprite sprite_sn"></i></a></li>
+              </ul>
+              <ul class="cont-menu">
+                <li>۰۲۱-۳۶۹۸ ۵۴۲۵</li>
+                <li>۰۲۱-۶۵۹۸ ۷۴۴۴</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="mainmenu">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="menulefts">
+                <a href="index.html#list" class="logobase"> <i class="sprite1 sprite-_0058_logo"></i> </a>
+              </div>
+              <ul class="menu nav nav-tabs">
+                <li><a href="index.html#accelerator">خانه</a></li>
+                <li class="dropdown"> <a id="userInterface" href="#" data-toggle="dropdown">محیط کاربری <i class="sprite sprite-_0049_down"></i></a>
+                  <ul class="dropdown-menu" role="menu" aria-labelledby="userInterface">
+                    <li><a href="#">زیر منو</a></li>
+                    <li><a href="#">زیر منو</a></li>
+                  </ul>
+                </li>
+                <li><a href="index.html#Register-Tips">سوالات رایج</a></li>
+                <li class="dropdown"> <a id="contribute" href="#" data-toggle="dropdown">همکاری با ما <i class="sprite sprite-_0049_down"></i></a>
+                  <ul class="dropdown-menu" role="menu" aria-labelledby="contribute">
+                    <li><a href="#">زیر منو</a></li>
+                    <li><a href="#">زیر منو</a></li>
+                  </ul>
+                </li>
+                <li><a href="index.html#weblog">تماس با ما</a></li>
+              </ul>
+              <div class="scrolledmenu dropdown">
+                <a class="startnow efcts btn btn-default" href="index.html#"> <span class="devicever">تدریس در سایت</span> </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <aside class="sidemenu">
+      <div class="menuinners">
+        <ul class="bigmenu nav nav-tabs">
+          <li><a href="index.html#"><b>خانه</b> </a></li>
+          <li class="dropdown"> <a href="#" data-toggle="dropdown">محیط کاربری <i class="sprite sprite-_0049_down"></i></a>
+            <ul class="dropdown-menu" role="menu">
+              <li><a href="#">زیر منو</a></li>
+              <li><a href="#">زیر منو</a></li>
+            </ul>
+          </li>
+          <li><a href="index.html#"><b>سوالات رایج</b></a></li>
+          <li class="dropdown"> <a href="#" data-toggle="dropdown">همکاری با ما <i class="sprite sprite-_0049_down"></i></a>
+            <ul class="dropdown-menu" role="menu">
+              <li><a href="#">زیر منو</a></li>
+              <li><a href="#">زیر منو</a></li>
+            </ul>
+          </li>
+          <li><a href="index.html#"><b>تماس با ما</b></a></li>
+        </ul>
+        <div class="downside"> <a href="index.html#" class="btn btn-danger btn-block tadris-aside">تدریس در سایت</a>
+          <div class="col-lg-12">
+            <h6><span>مرکز تماس لرن آنلاین</span> <i class="sprite sprite_phcall"></i></h6>
+            <h4><span>۰۲۱-۳۶۹۸ ۵۴۲۵</span></h4>
+            <h4><span>۰۲۱-۶۵۹۸ ۷۴۴۴</span></h4>
+          </div>
+        </div>
+      </div>
+    </aside>
+    <section class="long-height-back clearfix">
+      <ul data-section-name="Home" id="list" class="scrollables active-section">
+        <li class="slide3 ">
+          <div class="container">
+            <div class="postatic ">
+              <div class="w-700 center-block">
+                <h1 class="fea3"> آنلاین یاد بگیرید... </h1>
+                <h5 class="fea3"> هم اکنون به خانواده <b>لرن آنلاین</b>بپیوندید </h5>
+                <div class="regbox tx-center fea7">
+                  <div class="inputbox w-88"> <input type="text" class="plcleft w-100" dir="ltr" placeholder="در بین بیش از ۳۰۰۰ دوره آموزشی جستجو کنید..." /> </div>
+                  <a class="efcts btn btn-danger cus-btn"> <i class="sprite sprite-_00109_plus"></i> </a>
+                  <h6>تا این لحظه ۲۱،۵۴۸ دوره آموزشی ۲۷،۳۵۶ نفر در دوره های آموزش آنلاین ما بهره مند شده اند...</h6>
+                </div>
+                <div class="slider-form-tag">
+                  <div class="regbox fea7">
+                    <div class="col-md-3">
+                      <div class="inputbox w-100"> <input type="submit" class="plcleft cus-1" dir="ltr" value="همه دوره ها" /> <a class="efcts btn btn-dark dis-n" href="index.html#"><i class="sprite sprite_ald"></i></a> </div>
+                    </div>
+                    <div class="col-md-3">
+                      <div class="inputbox w-100"> <input type="submit" class="plcleft cus-1" dir="ltr" value="بر اساس موضوع" /> <a class="efcts btn btn-dark dis-n" href="index.html#"><i class="sprite sprite_bm"></i></a> </div>
+                    </div>
+                    <div class="col-md-3">
+                      <div class="inputbox w-100"> <input type="submit" class="plcleft cus-1" dir="ltr" value="دوره های رایگان" /> <a class="efcts btn btn-dark dis-n" href="index.html#"><i class="sprite sprite_fd"></i></a> </div>
+                    </div>
+                    <div class="col-md-3">
+                      <div class="inputbox w-100"> <input type="submit" class="plcleft cus-1" dir="ltr" value="جدیدترین ها" /> <a class="efcts btn btn-dark dis-n" href="index.html#"><i class="sprite sprite_jd"></i></a> </div>
+                    </div>
+                  </div>
+                  <div class="fea7 regbox"> </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </section>
+    <section class="container">
+      <div class="row">
+        <div class="col-md-offset-4 col-md-8 col-lg-offset-3 col-lg-9">
+          <div class="breadcrumb-custom">
+            <ul>
+              <li> <a href="#">
+                                صفحه نخست
+                            </a> </li>
+              <li> <a href="#">
+                                ویدئوهای آموزشی رایگان
+                            </a> </li>
+              <li> <a href="#">
+                                برنامه نویسی
+                            </a> </li>
+              <li> <a href="#">
+                               آموزش ساخت اپلیکیشن
+                            </a> </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-8 col-lg-9 col-xxs-12 col-xs-12 col-sm-12 col-md-push-4 col-lg-push-3">
+          <h2 class="course-titr"> آموزش ساخت اپلیکیشن زبان انلگیسی به سبک متریال در اندروید استودیو </h2>
+          <div class="flowplayer" dir="ltr"> <video poster="images/top-course/top-course-2.jpg">
+                        <source type="video/mp4" src="videos/Introduction.mp4" />
+                    </video> </div>
+          <div class="teacher-table">
+            <ul>
+              <li class="first desc">
+                <div class="teacher-img"> <img src="images/azim.jpg" class="img-responsive" alt="حسین یاری" /> </div>
+                <div class="teacher-info">
+                  <h4> مدرس: </h4>
+                  <h2> حسین یاری </h2>
+                  <p> طراح و برنامه نویس </p>
+                </div>
+              </li>
+              <li class="second desc">
+                <h4> دسته بندی: </h4>
+                <p>برنامه نویسی،‌ اندروید <br />رایگان</p>
+              </li>
+              <li class="third desc">
+                <div class="third-desc-inline">
+                  <h4> امتیاز: </h4> <span class="read-rate" data-score="3.65">
+                            </span>
+                  <div class="favorite" role="button"> <i class="fa fa-heart-o" aria-hidden="true"></i> افزودن ب علاقه مندی ها </div>
+                </div>
+                <div class="third-desc-inline">
+                  <div> <span class="price discounted formatted-number cl-or">169000</span> <span>تومان</span> </div>
+                  <div> <span class="price  formatted-number">129000</span> <span>تومان</span> </div>
+                  <div> <a href="#" class="btn btn-danger w-100">خرید دوره</a> </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="course-table">
+            <!-- Nav tabs -->
+            <ul class="nav nav-tabs" role="tablist">
+              <li role="presentation" class="active"><a href="#table-of-contents" aria-controls="table-of-contents" role="tab" data-toggle="tab">سرفصل های درسی</a></li>
+              <li role="presentation"><a href="#course-details" aria-controls="course-details" role="tab" data-toggle="tab">توضیحات دوره</a></li>
+              <li role="presentation"><a href="#qaa" aria-controls="qaa" role="tab" data-toggle="tab">
+                            پرسش و پاسخ (۰)
+                        </a></li>
+              <li role="presentation"><a href="#feedback" aria-controls="feedback" role="tab" data-toggle="tab">نظرات (۲)</a></li>
+            </ul>
+            <!-- Tab panes -->
+            <div class="tab-content">
+              <div role="tabpanel" class="tab-pane fade in active" id="table-of-contents">
+                <div class="row">
+                  <div class="col-md-8">
+                    <table class="table-hover table-of-contents">
+                      <tbody>
+                        <tr>
+                          <td> <span class="sprite sprite_unlocked"></span> </td>
+                          <td> <a href="#" class="play">
+                                                        معرفی دوره
+                                                        <span class="free-badge">
+                                                            نمایش رایگان
+                                                        </span>
+                                                    </a> </td>
+                          <td> <span class="duration">
+                                                        ۲۰:۱۸
+                                                    </span> </td>
+                          <td>
+                            <a href="#" class="download sprite sprite_green_download" title="دانلود"></a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td> <span class="sprite sprite_locked"></span> </td>
+                          <td> <a href="#" class="play">
+                                                        ساخت اکتیویتی مورد نیاز برای تمامی دروس 
+                                                    </a> </td>
+                          <td> <span class="duration">
+                                                        ۳۵:۱۴
+                                                    </span> </td>
+                          <td>
+                            <a href="#" class="download sprite sprite_grey_download" title="دانلود"></a>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="teacher-img">
+                      <div class="img-wrapper"> <img src="images/azim.jpg" alt="حسین یاری" class="img-responsive" /> </div>
+                      <h3> حسین یاری </h3>
+                      <p> طراح و برنامه نویس </p>
+                      <ul class="teacher-social">
+                        <li>
+                          <a href="#"> <i class="fa fa-twitter"></i> </a>
+                        </li>
+                        <li>
+                          <a href="#"> <i class="fa fa-instagram"></i> </a>
+                        </li>
+                        <li>
+                          <a href="#"> <i class="fa fa-facebook"></i> </a>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="teacher-info"> حسین یاری مدرس هستش و بیش از 2 ساله که برنامه نویسی اندروید رو شروع کرده و به مباحث مقدماتی تا پیشرفته برنامه نویسی اندروید مسلطه و در حال حاضر مدیر بخش اندروید چند سایت هم هست و علاقه داره که دانش و اطلاعات خودش رو در اختیار دیگران
+                      بذاره. از این که دوره ی برنامه نویسی رو در کنار شما هست خیلی خوشحاله و امیدواره بتونه قدم کوچکی برای پیشرفت های بزرگ شما برداره . </div>
+                    <table class="course-overview">
+                      <tbody>
+                        <tr>
+                          <td> <span class="sprite sprite_cl"></span> </td>
+                          <td> مدت دوره </td>
+                          <td> ۲۵:۱۵ ساعت </td>
+                        </tr>
+                        <tr>
+                          <td> <span class="sprite sprite_co_mouse"></span> </td>
+                          <td> تعداد دروس </td>
+                          <td> ۱۵ درس </td>
+                        </tr>
+                        <tr>
+                          <td> <span class="sprite sprite_co_play"></span> </td>
+                          <td> ویدئو </td>
+                          <td class="sprited"> <span class="sprite sprite_green_tik"></span> </td>
+                        </tr>
+                        <tr>
+                          <td> <span class="sprite sprite_co_volume"></span> </td>
+                          <td> صوت </td>
+                          <td class="sprited"> <span class="sprite sprite_cancel"></span> </td>
+                        </tr>
+                        <tr>
+                          <td> <span class="sprite sprite_co_duration"></span> </td>
+                          <td> سطح دوره </td>
+                          <td> پیشرفته </td>
+                        </tr>
+                        <tr>
+                          <td> <span class="sprite sprite_co_users"></span> </td>
+                          <td> تعداد کاربران </td>
+                          <td> ۲۵ کاربر </td>
+                        </tr>
+                        <tr>
+                          <td> <span class="sprite sprite_co_prerequisite"></span> </td>
+                          <td> پینشیاز </td>
+                          <td> جاوا </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+              <div role="tabpanel" class="tab-pane fade" id="course-details">
+                <h3> توضیحات </h3> حسین یاری مدرس هستش و بیش از 2 ساله که برنامه نویسی اندروید رو شروع کرده و به مباحث مقدماتی تا پیشرفته برنامه نویسی اندروید مسلطه و در حال حاضر مدیر بخش اندروید چند سایت هم هست و علاقه داره که دانش و اطلاعات خودش رو در اختیار
+                دیگران بذاره. از این که دوره ی برنامه نویسی رو در کنار شما هست خیلی خوشحاله و امیدواره بتونه قدم کوچکی برای پیشرفت های بزرگ شما برداره .
+                <p> تست پارگراف حاضر مدیر بخش اندروید چند سایت هم هست و علاقه داره که دانش و اطلاعات خودش رو در اختیار دیگران بذاره. از این که دوره ی برنامه نویسی رو د </p>
+              </div>
+              <div role="tabpanel" class="tab-pane fade" id="qaa">
+                <h3> پرسش و پاسخ </h3>
+                <form>
+                  <div class="form-group"> <input type="text" class="form-control" placeholder="عنوان سوال را در این قسمت وارد کنید" /> </div>
+                  <div class="form-group"> <textarea id="" cols="30" rows="5" placeholder="توضیحات سوال را در این قسمت وارد کنید" class="form-control"></textarea> </div>
+                  <div class="form-group"> <input type="file" />
+                    <p class="help-block"> فایل های مجاز: jpg, png, gif </p>
+                  </div> <button type="submit" class="btn btn-danger btn-wide">
+                                    ارسال
+                                </button> </form>
+                <div class="seprate-comment"></div>
+                <div class="comment">
+                  <div class="row">
+                    <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 col-xxs-12"> <img class="comment-image" src="images/user-default-image.jpg">
+                      <div class="backwhite-img"></div>
+                    </div>
+                    <div class="col-lg-11 col-md-11 col-sm-11 col-xs-11 col-xxs-12">
+                      <div class="comment-title row">
+                        <div class="comment-author col-lg-6 col-md-6 col-sm-6 col-xs-6 col-xxs-6"> محمد طوسی <br> <span class="comment-details">
+                                                        در پنجشنبه, ۳۰ دی ۱۳۹۵ ۸:۵۹ </span>
+                          <div class="read-rate" data-score="3"></div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 col-xxs-6"> <span class="btn discussion-reply comment-reply-btn pull-left">
+                                                    <i class="fa fa-mail-reply"></i> پاسخ </span> </div>
+                      </div>
+                      <div class="discussion-title"> فایل ها </div>
+                      <div class="comment-description"> سلام <br> پس فایل های پروژه کو؟؟ </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="seprate-comment"></div>
+                <div class="comment">
+                  <div class="row">
+                    <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 col-xxs-12"> <img class="comment-image" src="images/user-default-image.jpg">
+                      <div class="backwhite-img"></div>
+                    </div>
+                    <div class="col-lg-11 col-md-11 col-sm-11 col-xs-11 col-xxs-12">
+                      <div class="comment-title row">
+                        <div class="comment-author col-lg-6 col-md-6 col-sm-6 col-xs-6 col-xxs-6"> محمد طوسی <br> <span class="comment-details">
+                                                        در پنجشنبه, ۳۰ دی ۱۳۹۵ ۸:۵۹ </span>
+                          <div class="read-rate" data-score="3"></div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 col-xxs-6"> <span class="btn discussion-reply comment-reply-btn pull-left">
+                                                    <i class="fa fa-mail-reply"></i> پاسخ </span> </div>
+                      </div>
+                      <div class="discussion-title"> فایل ها </div>
+                      <div class="comment-description"> سلام <br> پس فایل های پروژه کو؟؟ </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div role="tabpanel" class="tab-pane fade" id="feedback">
+                <h3> شما چه نظری درباره این دوره دارید؟ </h3>
+                <form>
+                  <div class="form-group"> <textarea class="form-control" rows="5" placeholder="نظرتان را با دیگران در میان بگذارید"></textarea> </div>
+                  <div class="row">
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 col-xxs-4"> <span class="count-comment"><i class="fa fa-comment"></i> &nbsp;۱۷۳۲ نظر </span> </div>
+                    <div class="text-left col-lg-8 col-md-8 col-sm-8 col-xs-8 col-xxs-8"> <button class="btn btn-danger btn-wide" type="submit">
+                                            ارسال نظر
+                                        </button> </div>
+                  </div>
+                </form>
+                <div class="seprate-comment"></div>
+                <div class="comment replayed">
+                  <div class="row">
+                    <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 col-xxs-12"> <img class="comment-image" src="images/user-default-image.jpg"> <img src="images/enroll.svg" class="enroll-comment" title="دانشجوی دوره " width="20">
+                      <div class="backwhite-img"></div>
+                    </div>
+                    <div class="col-lg-11 col-md-11 col-sm-11 col-xs-11 col-xxs-12">
+                      <div class="comment-title row">
+                        <div class="comment-author col-lg-6 col-md-6 col-sm-6 col-xs-6 col-xxs-6"> محمد طوسی <br> <span class="comment-details">
+                                                        در پنجشنبه, ۳۰ دی ۱۳۹۵ ۸:۵۹ </span>
+                          <div class="read-rate" data-score="3"></div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 col-xxs-6"> <span class="btn discussion-reply comment-reply-btn pull-left">
+                                                    <i class="fa fa-mail-reply"></i> پاسخ </span> </div>
+                      </div>
+                      <div class="comment-description"> سلام <br> پس فایل های پروژه کو؟؟ </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="comment is-reply is-author ">
+                  <div class="row">
+                    <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 col-xxs-12"> <img class="comment-image" src="images/azim.jpg"> <img src="images/tutor_comment.svg" title=" مدرس دوره " class="enroll-comment" width="20"> <img src="images/bottom-child-comment.jpg" class="bottom-child-comment"> </div>
+                    <div class="col-lg-11 col-md-11 col-sm-11 col-xs-11 col-xxs-12">
+                      <div class="comment-title row">
+                        <div class="comment-author col-lg-12 col-md-12 col-sm-12 col-xs-12"> <a href="#">نادر بحری</a> <br> <span class="comment-details">
+                                                    در جمعه, ۰۸ مرداد ۱۳۹۵ ۱۸:۳۹ </span> </div>
+                      </div>
+                      <div class="comment-description"> فرض کنید تو سلول A۱ تا A۳ به ترتیب ۱۰ و ۲۰ و ۰ وارد کردید با فرمول معمولی AVERAGE بهتون عدد ۱۰ رو میده که طبق فرمایش شما سلول صفر رو نباید در نظر بگیره که جواب باید بشه ۱۵ که میتونید برای این منظور از این فرمول استفاده کنید : </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="seprate-comment"></div>
+                <div class="comment ">
+                  <div class="row">
+                    <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 col-xxs-12"> <img class="comment-image" src="images/user-default-image.jpg">
+                      <div class="backwhite-img"></div>
+                    </div>
+                    <div class="col-lg-11 col-md-11 col-sm-11 col-xs-11 col-xxs-12">
+                      <div class="comment-title row">
+                        <div class="comment-author col-lg-6 col-md-6 col-sm-6 col-xs-6 col-xxs-6"> محمد طوسی <br> <span class="comment-details">
+                                                        در پنجشنبه, ۳۰ دی ۱۳۹۵ ۸:۵۹ </span>
+                          <div class="read-rate" data-score="3"></div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 col-xxs-6"> <span class="btn discussion-reply comment-reply-btn pull-left">
+                                                    <i class="fa fa-mail-reply"></i> پاسخ </span> </div>
+                      </div>
+                      <div class="comment-description"> سلام <br> پس فایل های پروژه کو؟؟ </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-lg-3 col-xxs-12 col-xs-12 col-sm-12 col-md-pull-8 col-lg-pull-9">
+          <div class="side-box">
+            <h3> جست و جو در دوره ها </h3>
+            <form>
+              <div class="form-group"> <input type="text" class="form-control has-bg" /> <span class="input-addon-bg">
+                                <i class="fa fa-search" aria-hidden="true"></i>
+                            </span> </div>
+              <div class="form-group"> <input type="radio" name="freeOrPaid" value="همه" id="allCourse" checked="checked" /> <label for="allCourse">همه</label>&nbsp; <input type="radio" name="freeOrPaid" value="رایگان" id="freeCourse" /> <label for="freeCourse">رایگان</label>&nbsp;
+                <input type="radio" name="freeOrPaid" value="غیر رایگان" id="paidCourse" /> <label for="paidCourse">غیر رایگان</label> </div>
+              <div class="form-group"> <select name="filter" id="filter" style="width: 100%" class="select2">
+                                <option value="1">جدید ترین</option>
+                                <option value="2">پر فروش ترین</option>
+                                <option value="3">محبوب ترین</option>
+                            </select> </div>
+              <div> <button type="submit" class="btn btn-green w-100">جستجو کن</button> </div>
+            </form>
+          </div>
+          <div class="side-box">
+            <h3> دوره های مرتبط </h3>
+            <ul>
+              <li> <a href="#">
+                            برنامه نویسی اندروید
+                            </a> </li>
+              <li> <a href="#">
+                            برنامه نویسی وب (PHP / ASP)
+                            </a> </li>
+              <li> <a href="#">
+                            سی شارپ (#C)
+                            </a> </li>
+              <li> <a href="#">
+                                پایگاه داده
+                            </a> </li>
+              <li> <a href="#">
+                                طراحی رابط کاربری
+                            </a> </li>
+              <li> <a href="#">
+                                آموزش جاوا
+                            </a> </li>
+              <li> <a href="#">
+                                پایتون
+                            </a> </li>
+            </ul>
+          </div>
+          <div class="side-adds hidden-sm hidden-xs hidden-xxs">
+            <a href="#"> <img src="images/adds-banner.jpg" alt="تخفیف ویژه دانشجویان" class="img-responsive" /> </a>
+          </div>
+          <div class="side-box">
+            <h3> مقالات </h3>
+            <ul class="side-article clearfix">
+              <li class="clearfix">
+                <a href="#">
+                  <div class="article-img"> <img src="images/side-article/side-article-1.jpg" class="img-responsive" alt="جست و جو در وردپرس بدون افزونه" /> </div>
+                  <div class="article-detail">
+                    <h4> جست و جو در وردپرس بدون افزونه </h4>
+                    <div class="read-rate" data-score="2"></div>
+                  </div>
+                </a>
+              </li>
+              <li class="clearfix">
+                <a href="#">
+                  <div class="article-img"> <img src="images/side-article/side-article-2.jpg" class="img-responsive" alt="یکسان سازی کدهای css در مرورگر ها" /> </div>
+                  <div class="article-detail">
+                    <h4> یکسان سازی کدهای css در مرورگر ها </h4>
+                    <div class="read-rate" data-score="2"></div>
+                  </div>
+                </a>
+              </li>
+              <li class="clearfix">
+                <a href="#">
+                  <div class="article-img"> <img src="images/side-article/side-article-3.jpg" class="img-responsive" alt="چگونه قله گوگل را فتح کنیم" /> </div>
+                  <div class="article-detail">
+                    <h4> چگونه قله گوگل را فتح کنیم </h4>
+                    <div class="read-rate" data-score="2"></div>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer id="footer">
+      <div class="regmentors">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-7 col-lg-8 col-sm-12 clearfix">
+              <ul class="menu cus-m">
+                <li><a href="index.html#accelerator">خانه</a></li>
+                <li><a href="index.html#AboutUs">محیط کاربری</a></li>
+                <li><a href="index.html#Register-Tips">سوالات رایج</a></li>
+                <li><a href="index.html#Support_Teams">همکاری با ما</a></li>
+                <li><a href="index.html#weblog">تماس با ما</a></li>
+              </ul>
+            </div>
+            <div class="col-md-5 col-lg-4 col-sm-12 col-xs-12 clearfix"> <a class="btn cus-a animated boundeIn" href="index.html#">سوالات متداول <i class="sprite sprite-f2"></i></a> <a class="btn cus-a animated boundeIn" href="index.html#">گفتگوی آنلاین <i class="sprite sprite-f1"></i></a> </div>
+          </div>
+        </div>
+      </div>
+      <div class="secline">
+        <div class="container">
+          <div class="col-lg-12">
+            <div class="col-md-2 col-sm-4 col-xs-12 leadersay"> <img src="images/leader.png" class="img-responsive" /> </div>
+            <div class="col-md-6 col-sm-8 col-xs-12">
+              <div class="row">
+                <ul class="smmenus col-md-3 col-sm-3 col-xs-6 col-xxs-12">
+                  <li><a href="index.html#">صفحه نخست</a></li>
+                  <li><a href="index.html#">وبلاگ</a></li>
+                  <li><a href="index.html#">اخبار و برنامه ها</a></li>
+                  <li><a href="index.html#">افتخارات</a></li>
+                </ul>
+                <ul class="smmenus col-md-3 col-sm-3 col-xs-6 col-xxs-12">
+                  <li><a href="index.html#">قوانین</a></li>
+                  <li><a href="index.html#">گروه های آموزشی</a></li>
+                  <li><a href="index.html#">مدرسین دوره ها</a></li>
+                  <li><a href="index.html#">دوره های رایگانا</a></li>
+                </ul>
+                <ul class="smmenus col-md-3 col-sm-3 col-xs-6 col-xxs-12">
+                  <li><a href="index.html#">فرصت های شغلی</a></li>
+                  <li><a href="index.html#">تبلیغات   <span>جدید</span></a></li>
+                  <li><a href="index.html#">درباره ما</a></li>
+                  <li><a href="index.html#">تماس با ما</a></li>
+                </ul>
+                <ul class="smmenus col-md-3 col-sm-3 col-xs-6 col-xxs-12">
+                  <li><a href="index.html#">ورود / ثبت نام</a></li>
+                  <li><a href="index.html#">قوانین</a></li>
+                  <li><a href="index.html#">راهنمای سایت</a></li>
+                  <li><a href="index.html#">نظرات و پیشنهادات</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-4 col-xs-12">
+              <ul class="certies text-center" id="certificates-wrapper">
+                <li><a data-toggle="modal" data-target="#Certificates"><i class="sprite sprite-_0017_certi"></i></a></li>
+                <li><a data-toggle="modal" data-target="#Certificates"><i class="sprite sprite-_0013_certi"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="firstline">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4 col-sm-7 col-xs-8 col-xxs-12">
+              <p>تهران ، خیابان جمهوری ، نبش کوچه شقایق <br/> </p>
+              <p class="dr-l">۰۲۱-۳۶۹۸ ۵۴۲۵&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;۰۲۱-۶۵۹۸ ۷۴۴۴</p>
+            </div>
+            <div class="col-md-2 col-sm-5 col-xs-4 col-xxs-12">
+              <p> info@site.com <br/> support@site.com </p>
+            </div>
+            <div class="col-md-6 col-md-offset-0 col-sm-offset-2 col-sm-8 col-xs-12">
+              <p class="dis-in-b fl-r m-t-15">به جمع ما بپیوندید و همواره به روز باشید.</p>
+              <div class="regbox">
+                <div class="inputbox news-letter
+"> <input type="text" class="plcleft" dir="ltr" placeholder="Yourmail@site.com"> </div> <a class="efcts btn btn-primary submit-news-letter
+" href="index.html#">عضویت</a> </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="">
+        <div class="container">
+          <div class="col-lg-12">
+            <div class="col-lg-6">
+              <p> کلیه حقوق مادی و معنوی این وب‌سایت متعلق به شرکت لرن آنلاین می‌ باشد. </p>
+            </div>
+            <div class="col-lg-6 ">
+              <ul class="certies">
+                <li><a href=""><i class="cl-re sprite sprite-_0014_certi"></i></a></li>
+                <li><a href=""><i class="cl-re sprite sprite-_0014-1_certi"></i></a></li>
+                <li><a href=""><i class="cl-re sprite sprite-_0014-2_certi"></i></a></li>
+                <li><a href=""><i class="cl-re sprite sprite-_0014-3_certi"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <div class="modal fade logsys lftrghmdl" id="admission_requestss" tabindex="-1" role="dialog" aria-labelledby="admission_requestss" style="display:none"> <a href="index.html#" class="closermodal" data-dismiss="modal"><i class="sprite sprite-cloz"></i></a>
+      <div class="modal-dialog modal-md w-500" role="document">
+        <div class="modal-content">
+          <div class="modal-body"> <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <div class="row">
+              <div class="col-lg-12">
+                <div class="admsn-right">
+                  <h4>ثبت نام</h4>
+                  <form method="post">
+                    <div class=" formgps">
+                      <div> <i class="sprite sprite-_0028_user"></i> <input type="text" class="persian" placeholder="نام و نام خانوادگی خود را وارد نمایید" />
+                        <div style="display:none" class="errorMessage">please insert valid numbers</div>
+                      </div>
+                    </div>
+                    <div class="formgps">
+                      <div> <i class="sprite sprite-_0029_mail"></i> <input type="text" class="english emails" placeholder="آدرس ایمیل خود را وارد نمایید" />
+                        <div style="display:none" class="errorMessage">please insert valid numbers</div>
+                      </div>
+                    </div>
+                    <div class="formgps">
+                      <div> <i class="sprite sprite-_0027_st"></i> <input type="text" class="numeric" maxlength="11" placeholder="گذرواژه خود را وارد نمایید" />
+                        <div style="display:none" class="errorMessage">please insert valid numbers</div>
+                      </div>
+                    </div>
+                    <div class="formgps2">
+                      <div class="checkbox"> <input id="checkbox1" type="checkbox"> <label for="checkbox1">
+                                            <a href="" class="cl-bl m-r-10">
+                                            حریم خصوصی
+                                        </a> و
+                                            <a href="" class="cl-bl">
+                                            شرایط و قوانین
+                                        </a> استفاده از سرویس سایت را مطالعه نموده و با کلیه موارد آن موافقم.
+                                        </label> </div>
+                    </div>
+                    <div class="g-recaptcha" id="recaptcha1"></div> <a class="btn efcts btn-block btn-danger sendnoww">ثبت نام در سایت</a> </form>
+                  <div class="formgps2 tx-center m-t-30"> <label>
+                                    قبلا در سایت ثبت نام کرده اید؟
+                                    <a href="" class="cl-bl">
+                                    ورود به سایت
+                                </a>
+                                </label> </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade logsys lftrghmdl" id="admission_login" tabindex="-1" role="dialog" aria-labelledby="admission_login" style="display:none"> <a href="index.html#" class="closermodal" data-dismiss="modal"><i class="sprite sprite-cloz"></i></a>
+      <div class="modal-dialog modal-md w-500" role="document">
+        <div class="modal-content">
+          <div class="modal-body"> <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <div class="row">
+              <div class="col-lg-12">
+                <div class="admsn-right">
+                  <h4>ورود به سایت</h4>
+                  <form method="post">
+                    <div class="formgps">
+                      <div> <i class="sprite sprite-_0029_mail"></i> <input type="text" class="english emails" placeholder="آدرس ایمیل خود را وارد نمایید" />
+                        <div style="display:none" class="errorMessage">please insert valid numbers</div>
+                      </div>
+                    </div>
+                    <div class="formgps">
+                      <div> <i class="sprite sprite-_0027_st"></i> <input type="text" class="numeric" maxlength="11" placeholder="گذرواژه خود را وارد نمایید" />
+                        <div style="display:none" class="errorMessage">please insert valid numbers</div>
+                      </div>
+                    </div>
+                    <div class="formgps2">
+                      <div class="checkbox"> <input id="checkbox2" type="checkbox"> <label for="checkbox2">
+                                            فراموش کردن رمز عبور
+                                        </label> </div>
+                    </div>
+                    <div class="g-recaptcha" id="recaptcha2"></div> <a class="btn efcts btn-block btn-success sendnoww">ورود به سایت سایت</a> </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/swiper.jquery.min.js"></script>
+    <script src="js/flowplayer.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/select2.min.js"></script>
+    <script src="js/counter.js"></script>
+    <script src="js/jquery.maskedinput.min.js"></script>
+    <script src="js/viewportchecker.js"></script>
+    <script src="js/jquery.scrollify.min.js"></script>
+    <script src="js/jquery.raty.js"></script>
+    <script src="js/wNumb.js"></script>
+    <script src="js/script.js"></script>
+    <script>
+      flowplayer.conf = {
+        share: false
+      };
+      $('.select2').select2(
+      {
+        minimumResultsForSearch: Infinity,
+        dir: "rtl"
+      });
+      $(document).ready(function(e)
+      {
+        $('.read-rate').raty(
+        {
+          readOnly: true,
+          score: function()
+          {
+            return $(this).attr('data-score');
+          },
+          half: true,
+          round:
+          {
+            down: .25,
+            full: .6,
+            up: .76
+          },
+          hints: ["", "", "", "", ""],
+          starOff: 'images/raty/star-off.png',
+          starOn: 'images/raty/star-on.png',
+          starHalf: 'images/raty/star-half-rtl.png'
+        });
+      })
+    </script>
+  </body>
+
+</html>

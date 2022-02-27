@@ -1,0 +1,707 @@
+.sprite {
+    background-image: url("../images/sprite.png");
+    background-repeat: no-repeat;
+    display: block;
+    float: right;
+}
+
+.sprite-_0000_left1 {
+    width: 28px;
+    height: 29px;
+    background-position: -32px -15px;
+}
+
+.sprite-_0001_chec {
+    width: 99px;
+    height: 99px;
+    background-position: -90px -15px;
+}
+
+.sprite-_0002_down {
+    width: 36px;
+    height: 20px;
+    background-position: -219px -15px;
+}
+
+.sprite-_0003_logobig {
+    width: 114px;
+    height: 137px;
+    background-position: -285px -15px;
+}
+
+.sprite-_0004_check {
+    width: 26px;
+    height: 32px;
+    background-position: -429px -15px;
+}
+
+.sprite-_0005_callus {
+    width: 84px;
+    height: 84px;
+    background-position: -429px -77px;
+}
+
+.sprite-_0006_social {
+    width: 32px;
+    height: 32px;
+    background-position: -485px -15px;
+}
+
+.sprite-_0007_social {
+    width: 28px;
+    height: 28px;
+    background-position: -15px -77px;
+}
+
+.sprite-_0008_social {
+    width: 28px;
+    height: 28px;
+    background-position: -219px -77px;
+}
+
+.sprite-_0009_social {
+    width: 28px;
+    height: 28px;
+    background-position: -15px -191px;
+}
+
+.sprite-_0010_social {
+    width: 28px;
+    height: 28px;
+    background-position: -73px -191px;
+}
+
+.sprite-_0011_social {
+    width: 28px;
+    height: 28px;
+    background-position: -131px -191px;
+}
+
+.sprite-_0012_social {
+    width: 28px;
+    height: 28px;
+    background-position: -189px -191px;
+}
+
+.sprite-_0013_certi {
+    width: 85px;
+    height: 135px;
+    background-position: -615px -243px;
+}
+
+.sprite-_0014_certi {
+    width: 32px;
+    height: 32px;
+    background-position: -13px -191px;
+}
+
+.sprite-_0014-1_certi {
+    width: 32px;
+    height: 32px;
+    background-position: -71px -191px;
+}
+
+.sprite-_0014-2_certi {
+    width: 32px;
+    height: 32px;
+    background-position: -129px -191px;
+}
+
+.sprite-_0014-3_certi {
+    width: 32px;
+    height: 32px;
+    background-position: -188px -191px;
+}
+
+.sprite-_0015_certi {
+    width: 50px;
+    height: 36px;
+    background-position: -394px -191px;
+}
+
+.sprite-_0016_certi {
+    width: 33px;
+    height: 32px;
+    background-position: -474px -191px;
+}
+
+.sprite-_0017_certi {
+    width: 85px;
+    height: 135px;
+    background-position: -727px -243px;
+}
+
+.sprite-_0018_certi {
+    width: 41px;
+    height: 38px;
+    background-position: -88px -253px;
+}
+
+.sprite-_0019_mail {
+    width: 22px;
+    height: 18px;
+    background-position: -159px -253px;
+}
+
+.sprite-_0020_2location {
+    width: 21px;
+    height: 21px;
+    background-position: -474px -253px;
+}
+
+.sprite-_0021_2adress {
+    width: 21px;
+    height: 21px;
+    background-position: -159px -304px;
+}
+
+.sprite-_0022_2phone {
+    width: 23px;
+    height: 17px;
+    background-position: -210px -304px;
+}
+
+.sprite-_0023_2fax {
+    width: 20px;
+    height: 19px;
+    background-position: -263px -304px;
+}
+
+.sprite-_0024_2attach {
+    width: 24px;
+    height: 24px;
+    background-position: -313px -304px;
+}
+
+.sprite-_0025_textare {
+    width: 24px;
+    height: 24px;
+    background-position: -367px -304px;
+}
+
+.sprite-_0026_2download {
+    width: 24px;
+    height: 19px;
+    background-position: -421px -304px;
+}
+
+.sprite-_0027_phone {
+    width: 24px;
+    height: 22px;
+    background-position: -475px -304px;
+}
+
+.sprite-_0027_st {
+    width: 24px;
+    height: 22px;
+    background-position: -517px -304px;
+}
+
+.sprite-_0028_user {
+    width: 24px;
+    height: 24px;
+    background-position: -15px -356px;
+}
+
+.sprite-_0029_mail {
+    width: 24px;
+    height: 18px;
+    background-position: -69px -356px;
+}
+
+.sprite_phcall {
+    width: 17px;
+    height: 16px;
+    background-position: -390px -513px;
+}
+
+.sprite_cl {
+    width: 25px;
+    height: 25px;
+    background-position: -624px -179px;
+    margin-top: -5px;
+}
+
+.sprite_tl {
+    width: 25px;
+    height: 25px;
+    background-position: -658px -179px;
+    margin-top: -5px;
+}
+
+.sprite_ur {
+    width: 30px;
+    height: 30px;
+    background-position: -629px -94px;
+    margin-top: -5px;
+}
+
+.sprite_ald {
+    width: 25px;
+    height: 25px;
+    background-position: -777px -144px;
+    margin-top: -5px;
+}
+
+.sprite_bm {
+    width: 25px;
+    height: 25px;
+    background-position: -740.75px -144px;
+    margin-top: -5px;
+}
+
+.sprite_sn {
+    width: 30px;
+    height: 30px;
+    background-position: -678px -94px;
+    margin-top: -5px;
+}
+
+.sprite_fd {
+    width: 25px;
+    height: 25px;
+    background-position: -704px -144px;
+    margin-top: -5px;
+}
+
+.sprite_jd {
+    width: 25px;
+    height: 25px;
+    background-position: -661px -144px;
+    margin-top: -5px;
+}
+
+.sprite_aw {
+    width: 25px;
+    height: 25px;
+    background-position: -685px -179px;
+    margin-top: -5px;
+}
+
+.sprite-_0030_marvel {
+    width: 2px;
+    height: 11px;
+    background-position: -211px -253px;
+}
+
+.sprite-_0031_left {
+    width: 10px;
+    height: 10px;
+    background-position: -123px -356px;
+}
+
+.sprite-_0032_mentour {
+    width: 28px;
+    height: 32px;
+    background-position: -163px -356px;
+}
+
+.sprite-f1 {
+    width: 28px;
+    height: 32px;
+    background-position: -716px -179px;
+}
+
+.sprite-f2 {
+    width: 28px;
+    height: 32px;
+    background-position: -748px -179px;
+}
+
+.sprite-_0033_left {
+    width: 45px;
+    height: 29px;
+    background-position: -221px -356px;
+}
+
+.sprite-_0034_qoute {
+    width: 27px;
+    height: 24px;
+    background-position: -421px -356px;
+}
+
+.sprite-_0035_qoute {
+    width: 27px;
+    height: 24px;
+    background-position: -478px -356px;
+}
+
+.sprite-_0036_1user {
+    width: 62px;
+    height: 64px;
+    background-position: -15px -410px;
+}
+
+.sprite-_0037_1target {
+    width: 64px;
+    height: 64px;
+    background-position: -296px -410px;
+}
+
+.sprite-_0038_1money {
+    width: 64px;
+    height: 38px;
+    background-position: -390px -410px;
+}
+
+.sprite-_0039_1rocket {
+    width: 56px;
+    height: 64px;
+    background-position: -547px -15px;
+}
+
+.sprite-_0040_1users {
+    width: 64px;
+    height: 64px;
+    background-position: -543px -109px;
+}
+
+.sprite-_0041_3up {
+    width: 18px;
+    height: 10px;
+    background-position: -528px -192px;
+}
+
+.sprite-_0042_3money {
+    width: 64px;
+    height: 64px;
+    background-position: -537px -243px;
+}
+
+.sprite-_0043_3rocket {
+    width: 56px;
+    height: 64px;
+    background-position: -535px -337px;
+}
+
+.sprite-_0044_users {
+    width: 64px;
+    height: 36px;
+    background-position: -107px -411px;
+}
+
+.sprite-_0045_mountain {
+    width: 41px;
+    height: 41px;
+    background-position: -201px -431px;
+}
+
+.sprite-_0046_target {
+    width: 46px;
+    height: 46px;
+    background-position: -484px -431px;
+}
+
+.sprite-_0047_left {
+    width: 19px;
+    height: 20px;
+    background-position: -560px -431px;
+}
+
+.sprite-_0048_email {
+    width: 22px;
+    height: 16px;
+    background-position: -390px -481px;
+}
+
+.sprite-_0049_up {
+    width: 18px;
+    height: 11px;
+    background-position: -560px -481px;
+}
+
+.sprite-_0049_down {
+    width: 12px;
+    margin-top: 10px;
+    margin-right: 5px;
+    height: 9px;
+    background-position: -564px -511px;
+    float: left;
+}
+
+.sprite-_0050_plus {
+    width: 26px;
+    height: 26px;
+    background-position: -15px -522px;
+}
+
+.sprite-_0051_call {
+    width: 24px;
+    height: 24px;
+    background-position: -71px -522px;
+}
+
+.sprite-_0052_call {
+    width: 15px;
+    height: 15px;
+    background-position: -125px -522px;
+}
+
+.sprite-_0053_play {
+    width: 55px;
+    height: 55px;
+    background-position: -170px -507px;
+}
+
+.sprite-_0054_plus {
+    width: 16px;
+    height: 16px;
+    background-position: -255px -522px;
+}
+
+.sprite-_0055_Layer-2 {
+    width: 34px;
+    height: 75px;
+    background-position: -301px -522px;
+}
+
+.sprite-_0056_logoo {
+    width: 30px;
+    height: 37px;
+    background-position: -442px -522px;
+}
+
+.sprite-_0057_logo {
+    width: 188px;
+    height: 34px;
+    background-position: -633px -15px;
+}
+
+.sprite-_00109_plus {
+    width: 30px;
+    top: 8px;
+    right: 6px;
+    background-repeat: inherit;
+    height: 30px;
+    background-position: 915px -706px;
+}
+
+.sprites {
+    background-image: url("../images/spritesheet2.png");
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprites_down {
+    width: 36px;
+    height: 20px;
+    background-position: -15px -15px;
+}
+
+.sprites_01_contact {
+    width: 22px;
+    height: 18px;
+    background-position: -81px -15px;
+}
+
+.sprites_02_contact {
+    width: 21px;
+    height: 21px;
+    background-position: -133px -15px;
+}
+
+.sprites_03_contact {
+    width: 21px;
+    height: 21px;
+    background-position: -184px -15px;
+}
+
+.sprites_04_contact {
+    width: 23px;
+    height: 17px;
+    background-position: -235px -15px;
+}
+
+.sprites_05_contact {
+    width: 20px;
+    height: 19px;
+    background-position: -235px -62px;
+}
+
+.sprites_06_attach {
+    width: 24px;
+    height: 24px;
+    background-position: -15px -111px;
+}
+
+.sprites_07_form {
+    width: 24px;
+    height: 24px;
+    background-position: -69px -111px;
+}
+
+.sprites_08_form {
+    width: 24px;
+    height: 19px;
+    background-position: -123px -111px;
+}
+
+.sprites_09_form {
+    width: 24px;
+    height: 22px;
+    background-position: -177px -111px;
+}
+
+.sprites_10_form {
+    width: 24px;
+    height: 24px;
+    background-position: -231px -111px;
+}
+
+.sprites_11_form {
+    width: 24px;
+    height: 18px;
+    background-position: -15px -165px;
+}
+
+.sprites_12_text {
+    width: 24px;
+    height: 24px;
+    background-position: -69px -165px;
+}
+
+.sprites_13_time {
+    width: 24px;
+    height: 24px;
+    background-position: -123px -165px;
+}
+
+.sprites_14_mobile {
+    width: 16px;
+    height: 24px;
+    background-position: -177px -165px;
+}
+
+.sprites_15_user {
+    width: 24px;
+    height: 24px;
+    background-position: -223px -165px;
+}
+
+.sprites_16_logos {
+    width: 69px;
+    height: 49px;
+    background-position: -15px -219px;
+}
+
+.sprites_17_logos {
+    width: 53px;
+    height: 48px;
+    background-position: -114px -219px;
+}
+
+.sprites_18_logo {
+    width: 155px;
+    height: 57px;
+    background-position: -288px -15px;
+}
+
+.sprites_19_play {
+    width: 31px;
+    height: 36px;
+    background-position: -285px -102px;
+}
+
+.sprites_20_up {
+    width: 10px;
+    height: 6px;
+    background-position: -346px -102px;
+}
+
+.sprites_21_phone {
+    width: 24px;
+    height: 24px;
+    background-position: -386px -102px;
+}
+
+.spirte_comment {
+    width: 33px;
+    height: 33px;
+    background-position: -721px -432px;
+}
+
+.sprite_star {
+    width: 28px;
+    height: 27px;
+    background-position: -726px -493px;
+}
+
+.sprite_bl_play {
+    width: 29px;
+    height: 29px;
+    background-position: -726px -540px;
+}
+
+.sprite_unlocked {
+    background-position: -598px -565px;
+    width: 32px;
+    height: 32px;
+}
+
+.sprite_locked {
+    background-position: -598px -524px;
+    width: 32px;
+    height: 32px;
+}
+
+.sprite_green_download {
+    background-position: -560px -571px;
+    width: 21px;
+    height: 20px;
+}
+
+.sprite_grey_download {
+    background-position: -560px -532px;
+    width: 21px;
+    height: 20px;
+}
+
+.sprite_co_mouse {
+    background-position: -237px -587px;
+    width: 20px;
+    height: 20px;
+}
+
+.sprite_co_play {
+    background-position: -206px -587px;
+    width: 20px;
+    height: 20px;
+}
+
+.sprite_co_volume {
+    background-position: -177px -587px;
+    width: 20px;
+    height: 20px;
+}
+
+.sprite_co_duration {
+    background-position: -149px -588px;
+    width: 20px;
+    height: 20px;
+}
+
+.sprite_co_users {
+    background-position: -112px -588px;
+    width: 20px;
+    height: 20px;
+}
+
+.sprite_co_prerequisite {
+    background-position: -77px -588px;
+    width: 20px;
+    height: 20px;
+}
+
+.sprite_green_tik {
+    background-position: -403px -576px;
+    width: 19px;
+    height: 17px;
+}
+
+.sprite_cancel {
+    background-position: -362px -580px;
+    width: 15px;
+    height: 15px;
+}
+
+/*# sourceMappingURL=sprite.css.map */
